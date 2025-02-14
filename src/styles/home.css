@@ -31,7 +31,8 @@ body {
 }
 
 .text-box {
-    background-color: rgba(255, 224, 170, 0.8); /* Slightly more opaque white for the content */
+    background: rgba(255, 255, 255, 0.15); /* Transparent white */
+    backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);

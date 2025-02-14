@@ -1,6 +1,6 @@
 /* Full-page background */
 body {
-  background: url("../styles/walpaper.jpeg") no-repeat center center/cover;
+  background: url("../assests/pexels-lum3n-44775-167684.jpg") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -32,11 +32,12 @@ body {
 .description {
   font-size: 1.2rem;
   margin-bottom: 15px;
-  opacity: 0.9;
+  color: black;
 }
 
 /* Pop-up Info Section */
 .pop-info {
+    
   background: rgba(255, 255, 255, 0.2);
   padding: 10px;
   border-radius: 8px;
@@ -47,7 +48,9 @@ body {
   animation: slideIn 1.5s ease-in-out;
 }
 
-
+p{
+    color: black;
+}
 /* Animations */
 @keyframes fadeIn {
   from {
