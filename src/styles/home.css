@@ -1,0 +1,79 @@
+/* home.css */
+
+/* Prevent scrolling on the page */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Ensuring the page content is centered */
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  /* background-color: hsl(34, 100%, 86%); */
+  padding: 20px;
+  /* background-image: url("../styles/walpaper.jpeg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Rest of your styles */
+.home-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-box {
+    background-color: rgba(255, 224, 170, 0.8); /* Slightly more opaque white for the content */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.2em;
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #004d99;
+}
+
+.links p {
+  font-size: 1.1em;
+  color: #333;
+}

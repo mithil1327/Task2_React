@@ -1,0 +1,17 @@
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+.page-content {
+    margin-top: 70px; /* Pushes content below the navigation bar */
+}
